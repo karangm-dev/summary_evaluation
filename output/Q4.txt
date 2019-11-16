@@ -1,0 +1,28 @@
+[4.1.1]
+Initial 3 features -- MES: 0.7150259067357513, Pearson: 0.28168584766158733
+
+[4.1.2]
+Additional features:
+   - repetitive_punctuation_count - number of times punctuation repeats back to back
+   - coleman_liau_score
+Initial 3 features + repetitive_punctuation_count  -- MES: 0.7150259067357513, Pearson: 0.28168584766158733
+Initial 3 features + coleman_liau_score -- MES: 0.6994818652849741, Pearson: 0.2970331864733582
+Initial 3 features + coleman_liau_score + sentence_end_with_punctuation -- MES: 0.6994818652849741, Pearson: 0.2970331864733582
+
+coleman_liau_score is one of the scores you get from readability index. If the content is not well presented gramatically, it is bound to have low scores.
+
+[4.2.1]
+Initial 3 features -- MES: 0.7098445595854922, Pearson: 0.315050313231089
+
+[4.2.2]
+Additional features:
+   - Unigram count
+   - sentence_end_with_punctuation - whether a sentence ends with a punctuation
+Initial 3 features + Unigram count -- MSE: 0.7098445595854922, Pearson: 0.2632217322438915
+Initial 3 features + sentence_end_with_punctuation -- MSE: 0.6787564766839378, Pearson: 0.3435671538468285
+Initial 3 features + Unigram count + sentence_end_with_punctuation -- MES: 0.6373056994818653, Pearson: 0.3005045101039512
+
+In most of the example having low redundancy score, sentence not ending with punctuation is observed.
+
+[4.3]
+Initial 2 features -- MSE: 0.7823834196891192, Pearson: 0.1764393471698204
