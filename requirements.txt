@@ -4,7 +4,7 @@ blis==0.2.4
 boto==2.49.0
 boto3==1.10.15
 botocore==1.13.15
-certifi==2019.9.11
+certifi==2022.12.7
 chardet==3.0.4
 cymem==2.0.3
 decorator==4.4.1
